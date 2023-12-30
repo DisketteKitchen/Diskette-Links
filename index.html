@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Diskette Kitchen</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form id="windows">
+    <!-- Login and Shutdown -->
+    <input type="checkbox" id="login-screen-input" name="login-screen-input" />
+    <input type="checkbox" id="shutdown-screen-input" name="shutdown-screen-input" />
+    <input type="checkbox" name="start-button-input" id="start-button-input" />
+    <input type="radio" name="update-input" id="update-input" />
+    <div id="background"></div>
+    <!-- Minimize Windows -->
+    <input type="checkbox" id="windows-ie-input-min" name="windows-ie-input-min" />
+    <input type="checkbox" id="windows-documents-input-min" name="windows-documents-input-min" />
+    <input type="checkbox" id="windows-help-input-min" name="windows-help-input-min" /> 
+    <input type="checkbox" id="windows-update-input-min" name="windows-update-input-min" />
+    <input type="checkbox" id="windows-notepad-input-min" name="windows-notepad-min" /> 
+    <input type="checkbox" id="windows-minesweeper-input-min" name="windows-minesweeper-input-min" /> 
+    <input type="checkbox" id="windows-trash-input-min" name="windows-trash-input-min" />
+    <!-- Maximize Windows -->
+    <input type="checkbox" id="windows-ie-input-max" name="windows-ie-input-max" />
+    <input type="checkbox" id="windows-documents-input-max" name="windows-documents-input-max" />
+    <input type="checkbox" id="windows-help-input-max" name="windows-help-input-max" /> 
+    <input type="checkbox" id="windows-update-input-max" name="windows-update-input-max" /> 
+    <input type="checkbox" id="windows-notepad-input-max" name="windows-notepad-max" /> 
+    <input type="checkbox" id="windows-minesweeper-input-max" name="windows-minesweeper-input-max" />
+    <input type="checkbox" id="windows-trash-input-max" name="windows-trash-input-max" />
+    <!-- Window Order -->
+    <input type="radio" id="windows-ie-input-on-top" name="windows-order" /> 
+    <input type="radio" id="windows-documents-input-on-top" name="windows-order" />
+    <input type="radio" id="windows-help-input-on-top" name="windows-order" /> 
+    <input type="radio" id="windows-update-input-on-top" name="windows-order" /> 
+    <input type="radio" id="windows-notepad-input-on-top" name="windows-order" />
+    <input type="radio" id="windows-minesweeper-input-on-top" name="windows-order" /> 
+    <input type="radio" id="windows-trash-input-on-top" name="windows-order" />
+    <!-- Window Visibility -->
+    <input type="checkbox" id="windows-ie-input" name="windows-ie-input" />
+    <input type="checkbox" id="windows-documents-input" name="windows-documents-input" />
+    <input type="checkbox" id="windows-help-input" name="windows-help-input" /> 
+    <input type="checkbox" id="windows-update-input" name="windows-update-input" /> 
+    <input type="checkbox" id="windows-notepad-input" name="windows-notepad-input" />
+    <input type="checkbox" id="windows-minesweeper-input" name="windows-minesweeper-input" />
+    <input type="checkbox" id="windows-trash-input" name="windows-trash-input" />
+
+    <div id="shutdown-screen"><label for="shutdown-screen-input"></div></div>
+   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="desktop">
+        <label for="windows-trash-input" class="desktop-item">
+            <div class="icon"><img src="recycle_bin_full-2.png" alt="" /> </div>
+            <div class="text">Recycle Bin</div>
+        </label>
+        <label for="windows-notepad-input" class="desktop-item">
+            <div class="icon"><img src="notepad-5.png" alt="" /> </div>
+            <div class="text">Notepad</div>
+        </label>
+        </label>
+        <a target="_blank" href="https://youtube.com/@DisketteKitchen" class="desktop-item"><span class="icon"><img src="wm-5.png" alt="" /></span><span class="text">YouTube</span></a>            
+        </label>
+        <a target="_blank" href="https://www.printables.com/@DisketteDesi_1620830" class="desktop-item"><span class="icon"><img src="printer-0.png" alt="" /></span><span class="text">3D Models</span></a>
+    </label>
+    </label>
+    <a target="_blank" href="mailto:diskettekitchen@gmail.com" class="desktop-item"><span class="icon"><img src="mailbox_world-0.png" alt="" /></span><span class="text">Email me</span></a>
+    </label>
+    <label for="windows-ie-input" class="desktop-item">
+        <div class="icon"><img src="hard_disk_drive_pie.png" alt="" /></div>
+        <div class="text">About</div>
+        </label>
+        </label>
+        <label for="windows-update-input" class="desktop-item update">
+            <div class="icon"><img src="msn.png" alt="" /> </div>
+            <div class="text">MSN</div>
+        </label>
+        <a target="_blank" href="https://instagram.com/diskettekitchen" class="desktop-item"><span class="icon"><img src="camera-0.png" alt="" /></span><span class="text">Instagram</span></a>
+    </div>
+    <div id="all-windows"> 
+        <div class="window ie windows-box-shadow">
+            <div class="header"><label for="windows-ie-input-on-top">About</label>
+                <div class="header-buttons">
+                    <label for="windows-ie-input-min" class="minimize windows-box-shadow"></label>
+                    <label for="windows-ie-input-max" class="maximize windows-box-shadow"></label>
+                    <label for="windows-ie-input" class="close windows-box-shadow">X</label>
+                </div>
+            </div>
+            <div class="options line">
+                <div class="item">File</div>
+                <div class="item">Edit</div>
+                <div class="item">Views</div>
+                <div class="item">Favorites</div>
+                <div class="item">Tools</div>
+                <div class="item">Help</div>
+                <div class="item float-right"><img src="windows-0.png" alt="" /></div>
+            </div>
+            <div class="options padding">
+                <div class="item">Address</div>
+                <input type="text" class="inverse-windows-box-shadow" value="Wanda.org" />
+            </div>
+            <div class="content">
+                <iframe src="https://omegabait.github.io"></iframe>
+            </div>
+        </div>
+        <div class="window help windows-box-shadow">
+            <div class="header"><label for="windows-help-input-on-top">Diskette Kitchen FAQ</label>
+                <div class="header-buttons">
+                    <label for="windows-help-input-min" class="minimize windows-box-shadow"></label>
+                    <label for="windows-help-input-max" class="maximize windows-box-shadow"></label>
+                    <label for="windows-help-input" class="close windows-box-shadow">X</label>
+                </div>
+            </div>
+            <div class="options padding">
+                <div class="item">Location</div>
+                <input type="text" class="inverse-windows-box-shadow" value="General Help" />
+            </div>
+            <div class="tab-box-content">
+                <input name="topics-radio" id="topic-1" type="radio" checked />
+                <input name="topics-radio" id="topic-2" type="radio" />
+                <input name="topics-radio" id="topic-3" type="radio" />
+                <input name="topics-radio" id="topic-4" type="radio" />
+                <div class="tab-box">
+                    <div class="tab-header">Diskette Kitchen</div>
+                    <ul class="box">
+                        <li><label for="topic-1"><img src="hardware-5.png" alt="" /> Why do you find so much tech in the trash?</label></li>
+                        <li><label for="topic-2"><img src="search_web-0.png" alt="" /> Why does your website look like this?</label></li>
+                        <li><label for="topic-3"><img src="calculator-0.png" alt="" /> What is 2x4^32?</label></li>
+                        <li><label for="topic-4"><img src="write_card_phone.png" alt="" /> How did you manage to make this yourself, idiot?</label></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="topic-1-content">
+                        <h2>Why do you find so much tech in the trash?</h2>
+                        <p>I'm really not sure, other than the fact that americans are very wasteful.</p>
+                    </div>
+                    <div class="topic-2-content">
+                        <h2>Why does your website look like this?</h2>
+                        <p>Because I want it to.</p>
+                    </div>
+                    <div class="topic-3-content">
+                        <h2>What is 2x4^32?</h2>
+                        <p>I don't know, don't you know that gay people can't do math?</p>
+                    </div>
+                    <div class="topic-4-content">
+                        <h2>How did you manage to make this yourself, idiot?</h2>
+                        <p>Well that's not vey nice, but the anser is that if you use a MIT licesnce, it's not your fault if someojne steals your code and uses it.
+                            https://fjolt.com/article/css-windows-98
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="window trash windows-box-shadow">
+            <div class="header"><label for="windows-trash-input-on-top">Recycle Bin</label>
+                <div class="header-buttons">
+                    <label for="windows-trash-input-min" class="minimize windows-box-shadow"></label>
+                    <label for="windows-trash-input-max" class="maximize windows-box-shadow"></label>
+                    <label for="windows-trash-input" class="close windows-box-shadow">X</label>
+                </div>
+            </div>
+            <div class="options line">
+                <div class="item">File</div>
+                <div class="item">Edit</div>
+                <div class="item">Views</div>
+                <div class="item">Go</div>
+                <div class="item">Favourites</div>
+                <div class="item">Help</div>
+            </div>
+            <div class="content white">
+                <input type="radio" name="trash-radio" id="windows-11" />
+                <input type="radio" name="trash-radio" id="mcbe" />
+                <input type="radio" name="trash-radio" id="itunes" />
+                <label class="file windows-11" for="windows-11">
+                    <span class="image"><img src="network_cool_two_pcs-0.png" alt="" /></span>
+                    <span class="text">Windows11.exe</span>
+                </label>
+                <label class="file macos" for="mcbe">
+                    <span class="image"><img src="program_manager-1.png" alt="" /></span>
+                    <span class="text">Mincraft BE.exe</span>
+                </label>
+                <label class="file itunes" for="nikom">
+                    <span class="image"><img src="camera3-4.png" alt="" /></span>
+                    <span class="text">Nikon.exe</span>
+                </label>
+            </div>
+        </div>
+        <div class="window documents windows-box-shadow">
+            <div class="header"><label for="windows-documents-input-on-top">Documents</label>
+                <div class="header-buttons">
+                    <label for="windows-documents-input-min" class="minimize windows-box-shadow"></label>
+                    <label for="windows-documents-input-max" class="maximize windows-box-shadow"></label>
+                    <label for="windows-documents-input" class="close windows-box-shadow">X</label>
+                </div>
+            </div>
+            <div class="options line">
+                <div class="item">File</div>
+                <div class="item">Edit</div>
+                <div class="item">Views</div>
+                <div class="item">Go</div>
+                <div class="item">Favourites</div>
+                <div class="item">Help</div>
+            </div>
+            <div class="content white">
+                <input type="radio" name="documents-radio" id="secret-codes" />
+                <input type="radio" name="documents-radio" id="diary" />
+                <label class="file secret-codes" for="secret-codes">
+                    <span class="image"><img src="notepad-5.png" alt="" /></span>
+                    <span class="text">Secret_Codes.txt</span>
+                </label>
+                <label class="file diary" for="diary">
+                    <span class="image"><img src="notepad_file-2.png" alt="" /></span>
+                    <span class="text">Diary.rtf</span>
+                </label>
+            </div>
+        </div>
+        <div class="window notepad windows-box-shadow">
+            <div class="header"><label for="windows-notepad-input-on-top">Notepad</label>
+                <div class="header-buttons">
+                    <label for="windows-notepad-input-min" class="minimize windows-box-shadow"></label>
+                    <label for="windows-notepad-input-max" class="maximize windows-box-shadow"></label>
+                    <label for="windows-notepad-input" class="close windows-box-shadow">X</label>
+                </div>
+            </div>
+            <div class="options line">
+                <div class="item">File</div>
+                <div class="item">Edit</div>
+                <div class="item">Search</div>
+            </div>
+            <div class="content">
+                <textarea></textarea>
+            </div>
+        </div>
+            </div>
+        </div>    
+    </div>
+</div>
+    <div id="start-bar">
+        <div id="start-button-items">
+            <label id="start-button" class="windows-box-shadow" for="start-button-input"></label>
+            <div id="items">
+                <label for="windows-ie-input-min" class="ie-tab tab windows-box-shadow"><span><img src="hard_disk_drive_pie.png" alt="" /></span><span>About</span></label>
+                <label for="windows-notepad-input-min" class="notepad-tab tab windows-box-shadow"><span><img src="notepad-5.png" alt="" /></span><span>Notepad</span></label>
+                <label for="windows-documents-input-min" class="documents-tab tab windows-box-shadow"><span><img src="wm-5.png" alt="" /></span><span>YouTube</span></label>
+                <label for="windows-update-input-min" class="update-tab tab windows-box-shadow"><span><img src="msn.png" alt="" /></span><span>MSN</span></label>
+                <label for="windows-trash-input-min" class="trash-tab tab windows-box-shadow"><span><img src="recycle_bin_full-2.png" alt="" /></span><span>Recycle Bin</span></label>
+            </div>
+        </div>
+        <div id="start-menu" class="windows-box-shadow">
+            <div id="windows-start-menu-blue">Windows<span>98</span></div>
+            <ul>
+                <li class="line update"><label for="windows-update-input"><img src="windows_update_large-5.png" style="width: 1.5rem;" alt="" /> Welcome, Wanda</label></li>
+                <li class="programs"><label><img src="program_manager-1.png" style="width: 1.5rem;" alt="" /> Progams</label>
+                    <ul class="windows-box-shadow">
+                        <li><label for="windows-ie-input"><img src="msie2-2.png" alt="" /><input type="checkbox" /> Internet Explorer
+                        </label></li>
+                        <li><label for="windows-notepad-input"><img src="notepad-5.png" alt="" /> Notepad</label></li>
+                    </ul>
+                </li>
+                <li><label for="windows-documents-input"><img src="directory_favorites-0.png" style="width: 1.5rem;" alt="" /> Documents</label></li>
+                <li class="line"><label for="windows-help-input"><img src="help_book_big-0.png" style="width: 1.5rem;" alt="" /> FAQ</label></li>
+                <li><label for="login-screen-input"><img src="key_win-4.png" alt="" /> Log Off
+                <li><label for="shutdown-screen-input"><img src="shut_down_cool-5.png" alt="" />Shutdown</label></li>
+            </ul>
+        </div>
+        <div id="time-options"></div>
+    </div>
+</form>
+<!-- partial -->
+  
+</body>
+</html>
